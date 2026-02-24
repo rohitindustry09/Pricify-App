@@ -1,8 +1,8 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "5182fafd9cca7ddc718623fb12c690ca"
-name = "Pricify App"
-application_url = "https://yan-unwesternized-guiltily.ngrok-free.dev"
+name = "Pricify"
+application_url = "https://prestigecity-indirapuram.net"
 embedded = true
 
 [build]
@@ -13,9 +13,9 @@ api_version = "2026-04"
 
   # THIS IS THE NEW SECTION THAT FIXES THE ERROR
   [webhooks.privacy_compliance]
-  customer_data_request_url = "https://yan-unwesternized-guiltily.ngrok-free.dev/gdpr"
-  customer_deletion_url = "https://yan-unwesternized-guiltily.ngrok-free.dev/webhooks/gdpr"
-  shop_deletion_url = "https://yan-unwesternized-guiltily.ngrok-free.dev/webhooks/gdpr"
+  customer_data_request_url = "https://prestigecity-indirapuram.net/gdpr"
+  customer_deletion_url = "https://prestigecity-indirapuram.net/webhooks/gdpr"
+  shop_deletion_url = "https://prestigecity-indirapuram.net/webhooks/gdpr"
 
   [[webhooks.subscriptions]]
   topics = [ "app/scopes_update" ]
@@ -34,7 +34,7 @@ use_legacy_install_flow = false
 [auth]
 # I updated these to match your live domain
 redirect_urls = [
-  "https://yan-unwesternized-guiltily.ngrok-free.dev/auth/callback",
-  "https://yan-unwesternized-guiltily.ngrok-free.dev/auth/shopify/callback",
-  "https://yan-unwesternized-guiltily.ngrok-free.dev/api/auth/callback"
+  "https://prestigecity-indirapuram.net/auth/callback",
+  "https://prestigecity-indirapuram.net/auth/shopify/callback",
+  "https://prestigecity-indirapuram.net/api/auth/callback"
 ]
